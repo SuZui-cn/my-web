@@ -22,18 +22,19 @@ Gitee地址：https://gitee.com/north_gate/my-web
 
 * 开篇
 
-* 工具篇
+* 01前置知识以及环境搭建
 
-  * VSCode
-
-    * 基本使用
-
-    * 插件
+  * 前置知识
 
   * Chrome浏览器
 
     * 下载安装
-    * 审查元素
+
+  * VSCode
+
+    * 下载安装
+  
+    * 汉化
 
 
 
