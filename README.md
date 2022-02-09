@@ -23,11 +23,9 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 * [开篇](https://blog.csdn.net/su_zui/article/details/122761856)
 * [01前置知识以及环境搭建](https://blog.csdn.net/su_zui/article/details/122780768)
 * 前置知识
-  
 * Chrome浏览器
   
   * 下载安装
-  
 * VSCode
   
   * 下载安装
@@ -40,6 +38,30 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   - HTML概念
   - HTML结构详解
   - HTML规范
+* [03网页的骨架——HTML实战练习](https://blog.csdn.net/su_zui/article/details/122851681?spm=1001.2014.3001.5502)
+  * VSCode基本介绍
+    * 前端工具介绍
+    * VSCode的使用
+  * HTML常用标签
+    * 基本文档标签
+    * 基本标签
+    * 文本格式化
+    * 链接
+    * 图片
+    * 无序列表
+    * 有序列表
+    * 定义列表
+    * 表格
+    * 框架
+    * 表单
+  * HTML标签练习
+    * 标签练习
+    * 基本标签实战
+    * 列表标签练习
+    * 图片标签练习
+    * 表格标签练习
+    * 表单标签练习
+  * 善于实用搜索引擎
 
 
 
