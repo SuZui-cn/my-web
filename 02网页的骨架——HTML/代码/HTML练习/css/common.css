@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.w{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* 文本居中 */
+.c{
+    text-align: center;
+}

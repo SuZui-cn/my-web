@@ -1,0 +1,131 @@
+<!--
+ * @Author: your name
+ * @Date: 2019-12-04 15:57:09
+ * @LastEditTime: 2019-12-04 16:41:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \计科1904刘晓虎（2019.12.2~12.6）\标签实例.html
+ -->
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+ <meta charset="UTF-8">
+ <title>input标签</title>
+</head>
+<body>
+        <label>声明此处为表单</label>
+        <form action="https://www.baidu.com" method="post" name="userInfo"></form>
+    ⽤户名：<input type="text" maxlength="15"/>
+        <br/>
+        密　码：<input type="password"/>
+        <br/>
+            性　别：
+            <input type="radio" name="sex" checked="checked"/> 男
+            <input type="radio" name="sex"/> ⼥
+             <br/>
+                爱　好：
+                <input type="checkbox" name="hobby"/> 看电影
+                <input type="checkbox" name="hobby"/> 读书
+                <br/>
+                        <input type="button" value="普通按钮"/>
+                            <input type="submit" value="提交按钮"/>
+                                <input type="reset" value="重置按钮"/>
+                                    <input type="image" src="../image/imgButton.png"/>
+                                <br/>
+                                    请选择⽂件：<input type="file"/>
+                                    请输⼊评论内容：
+                                    <br/>
+                                    <textarea ></textarea>
+                                    设置家乡
+                                        <select >
+                                            <option>选择省份</option>
+                                            <option>⼭东</option>
+                                            <option>内蒙古</option>
+                                            <option>⿊⻰江</option>
+                                            <option>⼭⻄</option>
+                                        </select>
+                                            <select>
+                                                <option>济南</option>
+                                                <option selected="selected">临沂</option>
+                                                <option>聊城</option>
+                                                <option>莱芜</option>
+                                                <option>⻘岛</option>
+                                            </select>
+                                                <input type="text" value="请输⼊姓名" list="names">
+                                                    <datalist id="names">
+                                                    <option>张三</option>
+                                                    <option>李四</option>
+                                                    <option>王五</option>
+                                                </datalist>
+                                                <fieldset>
+                                                        <legend>⽤户登录</legend>
+                                                        ⽤户名:<input type="text"/>
+                                                        <br/>
+                                                        密　码:<input type="password"/>
+                                                        email：<input type="email"/>
+                                                        <br/>
+                                                        tel：<input type="tel"/>
+                                                        <br/>
+                                                        url：<input type="url"/>
+                                                        <br/>
+                                                        number：<input type="number"/>
+                                                        <br/>
+                                                        search：<input type="search"/>
+                                                        <br/>
+                                                        range：<input type="range"/>
+                                                        <br/>
+                                                        time：<input type="time"/>
+                                                        <br/>
+                                                        date：<input type="date"/>
+                                                        <br/>
+                                                        datetime：<input type="datetime-local"/>
+                                                        <br/>
+                                                        month：<input type="month"/>
+                                                        <br/>
+                                                        week：<input type="week"/>
+                                                        <br/>
+                                                        color：<input type="color"/>
+                                                        <br/>
+                                                            <input type="submit"/>
+                                                            <input type="text" placeholder="请输⼊⽤户名"/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="text" autofocus="autofocus" placeholder="⾃动获取焦点"/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="file" multiple/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="text" autocomplete name="identify" placeholder="下次⾃动补⾜输⼊内容"/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="text" required placeholder="这是必填项"/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="text" accesskey="s" placeholder="获取焦点的快捷键为 alt+s"/>
+                                                            <br/>
+                                                            <br/>
+                                                            <input type="submit"/>
+                                                                <fieldset>
+                                                                        <legend>学⽣档案</legend>
+                                                                        <label>姓　　名：<input type="text" placeholder="请输⼊学⽣姓名"/></label> <br/>
+                                                                        <label>⼿ 机 号：<input type="tel" placeholder="请输⼊学⽣⼿机号"/></label><br/>
+                                                                        <label>邮　　箱：<input type="email"/></label><br/>
+                                                                        <label>所属学院：<input type="text" list="academy"/></label>
+                                                                        <datalist id="academy">
+                                                                        <option >JAVA学院</option>
+                                                                        <option >前端学院</option>
+                                                                        <option >PHP学院</option>
+                                                                        </datalist><br/>
+                                                                        <label>出⽣⽇期：<input type="date"/></label><br/>
+                                                                        <label>语⽂成绩：<input type="number" max="100" min="0" value="0"/></label><br/>
+                                                                        <label>数学成绩: <meter max="100" min="0" low="59" value="10"></meter></label><br/>
+                                                                        <label>英语成绩: <meter max="100" min="0" low="59" value="90"></meter></label><br/>
+                                                                        <input type="submit"><br/>
+                                                                        <input type="reset">
+                                                                        </fieldset>
+                                                                        <embed src=""></embed>
+        </form>
+
+</body>
+</html>

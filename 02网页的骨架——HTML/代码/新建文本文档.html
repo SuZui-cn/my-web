@@ -1,0 +1,25 @@
+<!-- 任何一个标准的HTML页面，第一行一定是一个以`<!DOCTYPE ……>`开头的语句。这一行，就是文档声明头，即 DocType Declaration，简称DTD。 -->
+<!DOCTYPE html>
+<!-- 
+  lang用于指定页面语言，最常见的语言类型有两种：
+- en：定义页面语言为英语。
+- zh-CN：定义页面语言为中文。 -->
+<html lang="en">
+  <head>
+    <!-- <meta>标签 提供有关页面的基本信息 -->
+    <!-- 字符集用meta标签中的`charset`定义，charset就是character set（即“字符集”），即网页的编码方式。 -->
+    <meta charset="UTF-8" />
+    <!-- Keywords是定义关键字，就是告诉搜索引擎，这个网页是干嘛的，能够提高搜索命中率。让别人能够找到你，搜索到你。 -->
+    <meta name="Keywords" content="帅者的第一个网页" />
+    <!-- 只要设置Description页面描述，那么百度搜索结果，就能够显示这些语句，这个技术叫做**SEO**（search engine optimization，搜索引擎优化）。 -->
+    <meta name="Description" content="这是帅者的第一个网页" />
+    <!-- `width=device-width` ：表示视口宽度等于屏幕宽度。viewport 这个知识点，初学者还比较难理解，在学WEB移动端的时候会用到 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 用于设置网页标题 -->
+    <title>Document</title>
+  </head>
+  <!-- <body>标签 用于定义HTML文档所要显示的内容，也称为主体标签。我们所写的代码必须放在此标签內。 -->
+  <body>
+    靓仔的第一个网页
+  </body>
+</html>

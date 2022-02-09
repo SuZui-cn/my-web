@@ -1,0 +1,149 @@
+<!-- /*
+ * @Author: 计科1904刘晓虎 
+ * @Date: 2019.11.29 
+ * @Last Modified by:   计科1904刘晓虎 
+ * @Last Modified time: 2019.11.29 
+ */ -->
+<!DOCTYPE html><!--声明类型-->
+<html lang="en"><!--定义语言-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--感叹号加回车插件快速新建的，我也不知道是啥-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--感叹号加回车插件快速新建的，我也不知道是啥-->
+    <title>表格练习</title><!--定义标题-->
+    <base target="_blank"><!--定义全局网址的打开方式-->
+</head>
+<body>
+           
+    <!--根据图片设置9x4的表格，通过单独让标题占一行来达到效果-->
+    <!--通过观察图片得出“常用站点”下部与“书籍站点”下部格式相同，因此可分部进行优先完成上半部分然后将代码复制粘贴修改文字和图片便可快捷完成任务-->
+    <table width="70%" align="center" ><!--定义表格的宽度和居中对齐-->
+        <th colspan="8"><!--缩进8列-->
+            <h1 style="background-color:rgb(223, 228, 196)">网址导航</h1><!--设置为一级标题且设置其颜色-->
+        </th>
+        <tr>       
+             <th colspan="8"><!--缩进8列-->
+                <h2 style="background-color:rgb(216, 194, 168)">常用网站</h2><!--设置为二级标题且设置其颜色-->
+            </th>
+        </tr>
+        <tr><!--设置子序列的颜色-->
+            <td style="color: lightpink;">
+                网站名称
+            </td>
+            <td style="color: lightpink;">
+                网站地址
+            </td>
+            <td style="color: lightpink;">
+                网站介绍
+            </td>
+            <td style="color: lightpink;">
+                网站子模块
+            </td>
+        </tr colspan="1"><!--缩进1列-->
+        <tr>
+            <td >
+               <img src="images\baidu.png"title="百度"height="250"width="250"><!--设置图片的相对位置和大小-->
+            </td>
+            <td>
+                <a href="https://www.baidu.com">百度</a><!--设置百度超链接-->
+            </td>
+            <td >
+                百度<!--描述词-->
+            </td>
+            <td>
+             <ul>
+                 <li>
+            <a href="https://image.baidu.com/">图片</a><!--设置百度图片超链接-->
+                 </li>
+                 <li>
+                        <a href="https://pan.baidu.com/disk/home?#/all?path=%2F&vmode=list">网盘</a><!--设置百度网盘超链接-->
+                 </li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    <img src="images\shipin.png"title="腾讯视频"height="150"width="250"><!--设置图片的相对位置和大小-->
+                </td>
+                <td>
+                    <a href="https://v.qq.com/">腾讯视频</a><!--设置腾讯视频超链接-->
+                </td>
+                <td>
+                    中国领先的在线视频媒体平台<!--描述词-->
+                </td>
+                <td>
+                 <ul>
+                     <li>
+                <a href="https://v.qq.com/channel/tv">电视剧</a><!--设置腾讯视频电视剧板块超链接-->
+                     </li>
+                     <li>
+                            <a href="https://v.qq.com/channel/movie">电影</a><!--设置腾讯视频电影板块超链接-->
+                     </li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="8"><!--缩进8列-->
+                    <h2 style="background-color:rgb(216, 194, 168)">书籍站点</h2><!--设置图片的相对位置和大小-->
+                </th>
+        </tr>
+        <br><!--设置子序列的颜色和名称-->
+        <td style="color: lightpink;">
+                网站名称
+            </td>
+            <td style="color: lightpink;">
+                网站地址
+            </td>
+            <td style="color: lightpink;">
+                网站介绍
+            </td>
+            <td style="color: lightpink;">
+                网站子模块
+            </td>
+            <tr>
+                    <tr>
+                            <td>
+                                <img src="images\qidian.jpg"title="起点中文网"height="100"width="250"><!--设置图片的相对位置和大小-->
+                            </td>
+                            <td>
+                                <a href="https://www.qidian.com/">起点中文网</a><!--设置腾起点中文网超链接-->
+                            </td>
+                            <td>
+                                起点中文唯一官方网站<!--描述词-->
+                            </td>
+                            <td>
+                             <ul>
+                                 <li>
+                            <a href="https://www.qidian.com/xuanhuan">玄幻</a><!--设置腾起点中文网玄幻板块超链接-->
+                                 </li>
+                                 <li>
+                                        <a href="https://www.qidian.com/dushi">都市</a><!--设置腾起点中文网都市板块超链接-->
+                                 </li>
+                            </ul>
+                            </td>
+                        </tr>
+                                    
+                    <tr><!--一下操作复制粘贴自上方-->
+                            <td>
+                                <img src="images\qidian.jpg"title="起点中文网"height="100"width="250">
+                            </td>
+                            <td>
+                                <a href="https://www.qidian.com/">起点中文网</a>
+                            </td>
+                            <td>
+                                起点中文唯一官方网站
+                            </td>
+                            <td>
+                             <ul>
+                                 <li>
+                            <a href="https://www.qidian.com/xuanhuan">玄幻</a>
+                                 </li>
+                                 <li>
+                                        <a href="https://www.qidian.com/dushi">都市</a>
+                                 </li>
+                            </ul>
+                            </td>
+                        </tr>
+    </table>
+</body>
+</html>
