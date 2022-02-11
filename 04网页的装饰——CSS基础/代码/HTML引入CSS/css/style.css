@@ -1,0 +1,15 @@
+p {
+  color: red;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: pink;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>css标签选择器的应用</title>
+    <style>
+      /* 不同选择器选中相同标签时，会因选择器先后顺序不同出现属性覆盖 */
+      /* 通用选择器 */
+      /* 所有标签都会被选中 */
+      * {
+        color: aqua;
+      }
+      /*标签选择器*/
+      /* 所有的<p>标签都会被选中 */
+      p {
+        color: red;
+      }
+
+      /*类选择器*/
+      /* 类选择器是在标签中添加class属性，class属性的值可以自定义，之后再通过值来定位标签 */
+      .class {
+        color: rosybrown;
+      }
+      /*id选择器*/
+      /* 与类选择器使用方法相同 */
+      #id {
+        color: royalblue;
+      }
+
+      /*交集选择器*/
+      /* 定义交集选择器的时候，两个选择器之间紧密相连。一般是以标签名开头 */
+      /* 如果后一个选择器是类选择器，则写为`p.l2`；如果后一个选择器 id 选择器，则写为`p#l2`。 */
+      p.l2 {
+        color: tan;
+      }
+      /*并集选择器*/
+      .l3,
+      .l4 {
+        color: sandybrown;
+      }
+      /*后代选择器*/
+      /* 这里表示body标签所有div标签下的所有p标签 这三个标签不一定是连续紧挨着的*/
+      body div p {
+        color: silver;
+      }
+      /* 伪类选择器 */
+      /* 伪类选择器比较复杂，这里只介绍一种:hover */
+      /* 其作用是当鼠标放置时候会出现的属性 */
+      a:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <span>通用选择器</span>
+    <p>标签选择器</p>
+    <p class="class">类选择器</p>
+    <p id="id">id选择器</p>
+    <p class="l2">交集选择器</p>
+    <p class="l3">并集选择器1</p>
+    <p class="l4">并集选择器2</p>
+    <div><p class="l5">后代选择器</p></div>
+    <a>伪类选择器</a>
+  </body>
+</html>
