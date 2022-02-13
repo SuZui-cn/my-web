@@ -1,0 +1,751 @@
+/*布局，版面*/
+
+#navbar-fixed-top {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px red solid;
+  z-index: 99;
+  display: none;
+}
+
+#nav-fixed {
+  height: 51px;
+  position: relative;
+}
+
+#navbar-fixed-top #search {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  height: 35px;
+  width: 550px;
+  border: 2px solid rgb(225, 37, 27);
+}
+
+#Advertisement {
+  height: 80px;
+  background-color: rgb(40, 97, 231);
+  background-image: url("../image/ad.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#X {
+  position: absolute;
+  right: 170px;
+  top: 5px;
+  height: 20px;
+  width: 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(45, 45, 45, 0.5);
+  color: rgb(255, 255, 255, 0.5);
+}
+
+#shortcut {
+  border-bottom: 1px solid #ddd;
+  background-color: #e3e4e5;
+  height: 30px;
+}
+
+#shortcut a {
+  color: #999;
+}
+
+#shortcut a:hover {
+  color: red;
+}
+
+.w #areamini,
+#shortcut-text div {
+  display: inline-block;
+}
+
+#areamini {
+  width: 58px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#areamini span {
+  color: #999;
+}
+
+#drop1 {
+  position: absolute;
+  height: 437px;
+  width: 321px;
+  background-color: rgb(255, 255, 255);
+  top: 30px;
+  z-index: 10000;
+  display: none;
+}
+
+#drop1-1 {
+  height: 200px;
+}
+
+#drop1-1 div {
+  float: left;
+  margin-top: 5px;
+  height: 28px;
+  width: 60px;
+}
+
+#drop1-2 {
+  height: 200px;
+  margin-top: 15px;
+  background-image: url("../image/pic9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#areamini:hover #drop1 {
+  display: block;
+}
+
+#shortcut-text {
+  float: right;
+  padding: 6px;
+}
+
+#shortcut-text div {
+  display: inline;
+  margin-left: 10px;
+}
+
+#areamini:hover {
+  width: 58px;
+  background-color: #fff;
+}
+
+#head {
+  background-color: rgb(255, 255, 255);
+}
+
+#header {
+  height: 140px;
+  position: relative;
+}
+
+#logo {
+  float: left;
+  height: 120px;
+  width: 130px;
+  margin: 20px 23px;
+  background-image: url("../image/logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#logo:hover {
+  background-image: url("../image/logo.gif");
+}
+
+#search {
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  height: 35px;
+  width: 550px;
+  border: 2px solid rgb(225, 37, 27);
+}
+
+#search input {
+  float: left;
+  height: 33px;
+  width: 488px;
+  padding: 2px 44px 2px 17px;
+}
+
+#search button {
+  float: left;
+  width: 62px;
+  height: 36px;
+  background-color: rgb(225, 37, 27);
+  background-image: url("../image/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px;
+}
+
+#hotwords {
+  position: absolute;
+  top: 75px;
+  left: 250px;
+}
+
+#hotwords a {
+  margin-left: 10px;
+  color: #999;
+}
+
+#hotwords a:hover {
+  color: rgb(200, 22, 35);
+}
+
+#hotwords a:first-child {
+  margin-left: 0px;
+}
+
+#shopcar {
+  position: absolute;
+  top: 30px;
+  right: 235px;
+  height: 38px;
+  width: 130px;
+  line-height: 38px;
+  border: 1px solid rgb(238, 238, 238);
+  background-image: url("../image/gouwuche.png");
+  background-repeat: no-repeat;
+  background-size: 28%;
+  color: red;
+  text-align: center;
+}
+
+#shopcar:hover {
+  border-bottom: none;
+}
+
+#ad {
+  float: right;
+  height: 120px;
+  width: 190px;
+  background-image: url("../image/guanggao.png");
+}
+
+#nav {
+  position: absolute;
+  height: 40px;
+  width: 750px;
+  bottom: 0;
+  left: 190px;
+}
+
+#nav ul li {
+  float: left;
+}
+
+#nav ul li a {
+  display: block;
+  height: 40px;
+  line-height: 45px;
+  font-size: 15px;
+  margin-right: 21px;
+  color: #333;
+}
+
+#nav ul li a:hover {
+  color: rgb(200, 22, 35);
+}
+
+#main {
+  background-color: rgb(244, 244, 244);
+}
+
+#content1 {
+  position: relative;
+  height: 480px;
+  background-color: rgb(244, 244, 244);
+}
+
+#ad2 {
+  position: absolute;
+  top: 8px;
+  left: -160px;
+  height: 480px;
+  width: 160px;
+  background-position: right;
+  background-image: url("../image/ad1.png");
+  background-repeat: no-repeat;
+}
+
+#X2 {
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
+#ad3 {
+  display: none;
+  position: absolute;
+  top: 5px;
+  height: 470px;
+  width: 790px;
+  left: 160px;
+  background-image: url("../image/ad2.png");
+  background-repeat: no-repeat;
+}
+
+#ad2:hover #ad3 {
+  display: block;
+  z-index: 99;
+}
+
+#menu1 {
+  position: absolute;
+  height: 450px;
+  width: 190px;
+  background-color: rgb(254, 254, 254);
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+#menu1 ul li {
+  font-size: 14px;
+  color: #333;
+  padding-left: 18px;
+  height: 25px;
+  line-height: 25px;
+}
+
+#d1,
+#d2,
+#d3 {
+  position: absolute;
+  left: 190px;
+  top: 0;
+  height: 454px;
+  width: 998px;
+  display: none;
+  z-index: 10000;
+}
+
+#d1 {
+  background-image: url("../image/d1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#d2 {
+  background-image: url("../image/d2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#d3 {
+  background-image: url("../image/d3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#menu1 ul li:hover {
+  background-color: rgb(217, 217, 217);
+  color: red;
+}
+
+#menu1 ul li:hover #d1 {
+  display: block;
+}
+
+#menu1 ul li:hover #d2 {
+  display: block;
+}
+
+#menu1 ul li:hover #d3 {
+  display: block;
+}
+
+#pic {
+  position: absolute;
+  background-image: url("../image/index1.png");
+  background-size: contain;
+  left: 200px;
+  top: 10px;
+  width: 590px;
+  height: 470px;
+}
+
+#pic img {
+  background-size: contain;
+}
+
+#pic2 {
+  position: absolute;
+  background-image: url("../image/pic1.png");
+  left: 800px;
+  height: 470px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 8px;
+}
+
+#pic3 {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  height: 470px;
+  width: 190px;
+  background-color: rgb(254, 254, 254);
+}
+
+#pic3 #user {
+  height: 102px;
+  position: relative;
+}
+
+#pic3 #user #usershow {
+  background-image: url("../image/user.png");
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  margin: 15px 0 0 20px;
+}
+
+#pic3 #user #a {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  color: #666;
+}
+
+#pic3 #user #b {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+#b span:hover {
+  color: red;
+}
+
+#c,
+#d {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 10px;
+  width: 75px;
+  height: 25px;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#c {
+  color: rgb(255, 255, 255);
+  background-color: rgb(225, 37, 27);
+}
+
+#d {
+  color: rgb(229, 215, 113);
+  background-color: rgb(54, 54, 52);
+}
+
+#c:hover {
+  background-color: rgb(200, 22, 35);
+}
+
+#d:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(200, 22, 35);
+}
+
+#pic3 h5 {
+  font-size: 14px;
+}
+
+#news a {
+  display: inline-block;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  margin-left: 60px;
+}
+
+#news h5 {
+  margin-left: 20px;
+}
+
+#news a:hover {
+  color: red;
+}
+
+#news ul {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#news ul li a {
+  margin-left: 0px;
+  height: 16px;
+  width: 160px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#news ul li span {
+  background-color: rgb(253, 238, 237);
+  color: rgb(225, 37, 27);
+  margin-left: 0px;
+}
+
+#lifeservice {
+  margin-top: 10px;
+}
+
+#lifeservice ul li {
+  float: left;
+  text-align: center;
+  height: 75px;
+  width: 60px;
+}
+
+#lifeservice li:hover {
+  color: red;
+}
+
+#main2 {
+  height: 260px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 25px;
+  position: relative;
+}
+
+#miaosha {
+  float: left;
+  background-image: url("../image/miaosha.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 190px;
+}
+
+#miaosha #font {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 31px;
+}
+
+#secondkill {
+  margin-top: 120px;
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+#miaosha2 {
+  float: left;
+  width: 800px;
+  height: 260px;
+  background-image: url("../image/miaos2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#miaosha3 {
+  float: left;
+  width: 190px;
+  height: 260px;
+  background-image: url("../image/miaos3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#main3 #part1,
+#part2 {
+  float: left;
+  width: 590px;
+  height: 335px;
+  margin-top: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#part1 {
+  margin-right: 10px;
+}
+
+#part1 #s1 {
+  float: left;
+  width: 170px;
+  margin-left: 10px;
+  height: 345px;
+  background-image: url("../image/pic8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#part1 #a1 {
+  float: left;
+  width: 355px;
+  font-size: 14px;
+  color: #999;
+  height: 345px;
+  position: relative;
+}
+
+#part1 #a1 div {
+  float: right;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+
+#part1 #a1 div a {
+  color: #999;
+}
+
+#part1 #a1 div a:hover {
+  color: red;
+}
+
+#a2 {
+  height: 270px;
+  width: 340px;
+  top: 50px;
+  left: 35px;
+  background-image: url("../image/s1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+#part2 {
+  background-image: url("../image/pic3.png");
+  background-repeat: no-repeat;
+}
+
+#main4 #part3,
+#part4 {
+  float: left;
+  margin-top: 25px;
+  height: 260px;
+  background-color: rgb(255, 255, 255);
+}
+
+#part3 {
+  width: 190px;
+  margin-right: 10px;
+  background-image: url("../image/pic2.png");
+  background-repeat: no-repeat;
+}
+
+#part4 {
+  width: 990px;
+  height: 260px;
+  background-image: url("../image/f1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#main5 #part5,
+#part6,
+#part7,
+#part8 {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  height: 340px;
+  width: 290px;
+  background-color: rgb(255, 255, 255);
+}
+
+#part5 {
+  margin-left: 0px;
+  background-image: url("../image/pic7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#part6 {
+  background-image: url("../image/pic6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#part7 {
+  background-image: url("../image/pic5.png");
+  background-repeat: no-repeat;
+}
+
+#part8 {
+  width: 280px;
+  background-image: url("../image/pic4.png");
+  background-repeat: no-repeat;
+}
+
+#part9,
+#part10 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 25px;
+}
+
+#yst1,
+#yst2 {
+  background-image: url("../image/yangshitu.png");
+  background-size: contain;
+  height: 2000px;
+}
+
+#footer {
+  height: 570px;
+  margin-top: 20px;
+}
+
+#modservice {
+  height: 103px;
+  border-bottom: 1px solid #dedede;
+}
+
+#modservice ul {
+  padding-left: 70px;
+}
+
+#modservice ul li {
+  float: left;
+  width: 297px;
+  height: 58px;
+  font-size: 18px;
+  line-height: 58px;
+  color: #444;
+  position: relative;
+}
+
+#modservice ul li span {
+  position: absolute;
+  left: 46px;
+}
+
+#modhelp {
+  height: 200px;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+#modhelp div {
+  height: 200px;
+  float: left;
+  margin-right: 210px;
+}
+
+#modhelp div ul li {
+  padding-top: 10px;
+  color: rgb(102, 102, 102);
+}
+
+#modhelp div:last-child {
+  margin-right: 0;
+}
+
+#helplist h5 {
+  font-size: 14px;
+  color: rgb(176, 176, 176);
+}
+
+#helplist li:hover {
+  color: red;
+}
+
+#end {
+  height: 265px;
+  background-repeat: no-repeat;
+  background-image: url("../image/footer.png");
+  background-position: center;
+}

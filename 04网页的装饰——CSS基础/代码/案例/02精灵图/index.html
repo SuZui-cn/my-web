@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        margin: 0 auto;
+        width: 500px;
+      }
+      div {
+        float: left;
+        width: 108px;
+        height: 120px;
+        margin-right: 50px;
+        /* 这里的是图床链接 */
+        background-image: url('https://gitee.com/north_gate/drawing-bed/raw/master/images/jinglingtu.png');
+      }
+      /* 下面设置的background-position是对应字母在图片里的位置，需要使用FW来获取 */
+      #l {
+        background-position: 0px 400px;
+      }
+      #x {
+        background-position: 350px 125px;
+      }
+      #h {
+        background-position: 390px 542px;
+      }
+      span {
+        display: block;
+        width: 100%;
+        font-family: serif;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <span>欢迎使用CSS</span>
+    <div id="l"></div>
+    <div id="x"></div>
+    <div id="h"></div>
+  </body>
+</html>

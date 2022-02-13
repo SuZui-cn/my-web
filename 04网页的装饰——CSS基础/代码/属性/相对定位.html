@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Generator" content="EditPlus®" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <title>相对定位</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .div1 {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+      }
+
+      .div2 {
+        position: relative; /*相对定位：相对于自己原来的位置*/
+        left: 50px; /*横坐标：正值表示向右偏移，负值表示向左偏移*/
+        top: 50px; /*纵坐标：正值表示向下偏移，负值表示向上偏移*/
+
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div1">靓仔在此</div>
+    <div class="div2">帅者在此</div>
+  </body>
+</html>

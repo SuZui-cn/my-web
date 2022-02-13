@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+      .box {
+        margin: 100px;
+        width: 308px;
+        height: 307px;
+        border: 1px solid #ff7e00;
+        position: relative; /*子绝父相*/
+      }
+      .box .image img {
+        width: 308px;
+        height: 196px;
+      }
+      .box .dtc {
+        display: block; /*转为块级元素，才能设置span的宽高*/
+        width: 52px;
+        height: 28px;
+        background-image: url(http://img.smyhvae.com/20180116_1115.png);
+        background-position: -108px 0px; /*这里用到了精灵图*/
+        position: absolute; /*采用绝对定位的方式，将精灵图盖在最上层*/
+        top: -9px;
+        left: 13px;
+      }
+      .box h4 {
+        background-color: black;
+        color: white;
+        width: 308px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        top: 156px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span class="dtc"></span>
+      <div class="image">
+        <img src="http://img.smyhvae.com/20180116_1116.jpg" alt="" />
+      </div>
+      <h4>广东深圳宝安区建安一路海雅缤纷城4楼</h4>
+    </div>
+  </body>
+</html>

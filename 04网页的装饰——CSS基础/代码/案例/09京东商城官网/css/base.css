@@ -1,0 +1,41 @@
+/* 页面变灰 */
+/* *{
+  filter: grayscale(1)
+} */
+/*公用样式*/
+body{
+  font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+  margin: 0 auto;
+  background-color: rgb(244,244,244); 
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/*版心*/
+.w {
+  width: 1190px;
+  margin: 0 auto;
+}
+/* 清除链接样式 */
+a{
+  text-decoration:none;
+}
+/*清除无序列表前的原点*/
+li{
+  list-style: none;
+}
+/*清除浮动*/
+.clear{
+  clear: both;
+}
+/*去除搜索自身边框*/
+input{
+  border:0;
+  outline: none;
+}
+/* 隐藏二级菜单 */
+.none{
+  display: none;
+}
+

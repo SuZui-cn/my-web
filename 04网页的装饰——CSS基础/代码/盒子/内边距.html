@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>内边距</title>
+  </head>
+
+  <style>
+    .box1,
+    .box2,
+    .box3 {
+      /* 统一设置盒子的宽度 */
+      width: 100px;
+      /* 统一设置盒子的长度 */
+      height: 100px;
+
+      /* 统一设置盒子的内边距 */
+      /*单独设置四个方向上边距为5px,右边距为20px,下边距为15px,左边距为10px*/
+      padding-top: 5px;
+      padding-right: 20px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      /*统一设置四个方向的内边距为10px*/
+      padding: 10px;
+      /*上边距为25px,左右边距为50px,下边距为75px*/
+      padding: 25px 50px 75px;
+      /*上下边距为25px,左右边距为50px*/
+      padding: 25px 50px;
+
+      /* 统一设置盒子的外边距 */
+      margin: 10px;
+      /* 统一设置盒子的边框 */
+      border: 5px black solid;
+    }
+    /* 给盒子设置不同的颜色 */
+    .box1 {
+      background-color: red;
+    }
+    .box2 {
+      background-color: blue;
+    }
+    .box3 {
+      background-color: green;
+    }
+  </style>
+  <body>
+    <div class="box1">我是盒子1</div>
+    <div class="box2">我是盒子2</div>
+    <div class="box3">我是盒子3</div>
+  </body>
+</html>

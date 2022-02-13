@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>显示与隐藏特效</title>
+    <style>
+      body {
+        display: inline-block;
+        margin: 0px;
+      }
+      #code {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        bottom: 0px;
+        background-color: black;
+      }
+      #wechat {
+        width: 44px;
+        height: 44px;
+        background-image: url('https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220213215548443.png');
+        background-size: 100%;
+        margin: 28px auto;
+        position: relative;
+      }
+      #erweima {
+        width: 180px;
+        height: 180px;
+        background-image: url('https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220213215500170.png');
+        background-size: 100%;
+        position: absolute;
+        left: -66px;
+        bottom: 70px;
+        /* 这里设置为none，让其不可见 */
+        display: none;
+      }
+      /* 这里用伪类设置display属性为block块级元素使其可见 */
+      #wechat:hover > #erweima {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="code">
+      <div id="wechat">
+        <div id="erweima"></div>
+      </div>
+    </div>
+  </body>
+</html>

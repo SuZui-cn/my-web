@@ -1,0 +1,86 @@
+#header img{
+    height: 120px;
+    width: 1226px;
+}
+h2{
+    font-size: 22px;
+    height: 57px;
+    margin-top: 10px;
+    line-height: 58px;
+}
+a{
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+}
+#main{
+    height: 620px;
+}
+#left{
+    float: left;
+}
+#left img{
+    width: 231px;
+}
+#right{
+    float: left;
+    width: 992px;
+}
+#right div{
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    width: 234px;
+    height: 300px;
+    background-color: rgb(255,255,255);
+}
+#right div img{
+    width: 160px;
+    height: 160px;
+    margin-left: 32px;
+    margin-top: 8px;
+}
+h3,p,p{
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+#intrduce{
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#price{
+    color: #ff6700;
+}
+#footer img{
+    height: 120px;
+    width: 1226px;
+}
+#flex{
+    position: fixed;
+    right: 0;
+    top:120px;
+    height: 500px;
+    width: 85px;
+}
+#flex div{
+    background-color: rgb(255,255,255);
+}
+#flex img{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+#flex p{
+    margin-top: 5px;
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #757575;
+}

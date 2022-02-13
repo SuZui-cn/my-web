@@ -33,35 +33,22 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 * [02网页的骨架——HTML理论讲解](https://blog.csdn.net/su_zui/article/details/122814320)
   - 我们的第一个网页
   - W3C
-    - 组织介绍
-    - WEB标准
   - HTML概念
   - HTML结构详解
   - HTML规范
 * [03网页的骨架——HTML实战练习](https://blog.csdn.net/su_zui/article/details/122851681?spm=1001.2014.3001.5502)
   * VSCode基本介绍
-    * 前端工具介绍
-    * VSCode的使用
   * HTML常用标签
-    * 基本文档标签
-    * 基本标签
-    * 文本格式化
-    * 链接
-    * 图片
-    * 无序列表
-    * 有序列表
-    * 定义列表
-    * 表格
-    * 框架
-    * 表单
   * HTML标签练习
-    * 标签练习
-    * 基本标签实战
-    * 列表标签练习
-    * 图片标签练习
-    * 表格标签练习
-    * 表单标签练习
   * 善于实用搜索引擎
+* [04网页的装饰——CSS基础](https://blog.csdn.net/su_zui/article/details/122915398?spm=1001.2014.3001.5502)
+  * CSS概述
+  * CSS语法
+  * HTML引入CSS
+  * CSS选择器
+  * 属性
+  * 盒子
+  * 案例
 
 
 
