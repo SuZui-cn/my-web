@@ -22,14 +22,11 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 
 * [开篇](https://blog.csdn.net/su_zui/article/details/122761856)
 * [01前置知识以及环境搭建](https://blog.csdn.net/su_zui/article/details/122780768)
-* 前置知识
-* Chrome浏览器
-  
-  * 下载安装
-* VSCode
-  
-  * 下载安装
-  * 汉化
+  * 前置知识
+  * Chrome浏览器
+
+  * VSCode
+
 * [02网页的骨架——HTML理论讲解](https://blog.csdn.net/su_zui/article/details/122814320)
   - 我们的第一个网页
   - W3C
