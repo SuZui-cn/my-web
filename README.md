@@ -26,7 +26,6 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * Chrome浏览器
 
   * VSCode
-
 * [02网页的骨架——HTML理论讲解](https://blog.csdn.net/su_zui/article/details/122814320)
   - 我们的第一个网页
   - W3C
@@ -46,6 +45,11 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * 属性
   * 盒子
   * 案例
+* [05网页的装饰——CSS进阶](https://blog.csdn.net/su_zui/article/details/122973887?spm=1001.2014.3001.5501)
+  * CSS布局相关
+  * 动画
+  * 组件库的使用
+  * 小技巧
 
 
 
