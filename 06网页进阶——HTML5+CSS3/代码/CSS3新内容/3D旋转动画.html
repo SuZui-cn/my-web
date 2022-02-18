@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      .rotateX {
+        width: 300px;
+        height: 226px;
+        margin: 200px auto;
+
+        /* 透视 :加给变换的父盒子*/
+        /* 设置的是用户的眼睛距离 平面的距离*/
+        /* 透视效果只是视觉上的呈现，并不是正真的3d*/
+        perspective: 110px;
+      }
+
+      img {
+        /* 过渡*/
+        transition: transform 2s;
+      }
+
+      /* 所有的3d旋转，对着正方向去看，都是顺时针旋转*/
+      .rotateX:hover img {
+        transform: rotateX(360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rotateX">
+      <img
+        src="https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220219002859863.png"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

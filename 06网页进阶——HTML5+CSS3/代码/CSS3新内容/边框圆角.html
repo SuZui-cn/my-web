@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      .parent {
+        width: 400px;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        float: left;
+        border: 1px solid rgb(144, 12, 63);
+        margin: 20px;
+        text-align: center;
+        line-height: 100px;
+        color: #fff;
+        font-size: 50px;
+        background-color: rgb(255, 141, 26);
+      }
+
+      /*画圆形的方式一*/
+      .box:nth-child(1) {
+        border-radius: 50px;
+      }
+
+      /*画圆形的方式二*/
+      .box:nth-child(2) {
+        border-radius: 50%;
+      }
+
+      .box:nth-child(3) {
+        border-radius: 100px 0 0 0;
+      }
+
+      .box:nth-child(4) {
+        border-radius: 100px/50px;
+      }
+
+      .box:nth-child(5) {
+        border-radius: 10%;
+      }
+
+      .box:nth-child(6) {
+        border-radius: 0 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+    </div>
+  </body>
+</html>

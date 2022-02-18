@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        background-color: #eee;
+        font-family: 'Microsoft Yahei';
+      }
+      section {
+        width: 1000px;
+        margin: 50px auto;
+      }
+      section h3 {
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      ul {
+        border: 1px solid #999;
+        background-color: #fff;
+        display: flex;
+        height: 500px;
+      }
+
+      ul li {
+        width: 200px;
+        height: 200px;
+        background: pink;
+        margin: 10px;
+      }
+
+      section:nth-child(1) ul {
+        /* 侧轴对齐方式 ：从侧轴开始的方向对齐*/
+        align-items: flex-start;
+      }
+
+      section:nth-child(2) ul {
+        /* 侧轴对齐方式 ：从侧轴结束的方向对齐*/
+        align-items: flex-end;
+      }
+
+      section:nth-child(3) ul {
+        /* 侧轴对齐方式 ：居中*/
+        align-items: center;
+      }
+
+      section:nth-child(4) ul {
+        /* 侧轴对齐方式 ：基线 默认同flex-start*/
+        align-items: baseline;
+      }
+
+      section:nth-child(5) ul {
+        /* 侧轴对齐方式 ：拉伸*/
+        align-items: stretch;
+      }
+
+      section:nth-child(5) ul li {
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>侧轴的对齐方式:align-items ：flex-start</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>侧轴的对齐方式：align-items:flex-end</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>侧轴的对齐方式：align-items:center</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>侧轴的对齐方式：align-itmes:baseline</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>侧轴的对齐方式：align-itmes: stretch</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+  </body>
+</html>

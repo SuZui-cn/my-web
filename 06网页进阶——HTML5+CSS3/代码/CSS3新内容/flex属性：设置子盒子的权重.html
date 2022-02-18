@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        background-color: #eee;
+        font-family: 'Microsoft Yahei';
+      }
+      section {
+        width: 1000px;
+        margin: 50px auto;
+      }
+      section h3 {
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      ul {
+        border: 1px solid #999;
+        background-color: #fff;
+        display: flex;
+      }
+
+      ul li {
+        width: 200px;
+        height: 200px;
+        background: pink;
+        margin: 10px;
+      }
+
+      section:nth-child(1) ul li:nth-child(1) {
+        flex: 1;
+      }
+
+      section:nth-child(1) ul li:nth-child(2) {
+        flex: 1;
+      }
+
+      section:nth-child(1) ul li:nth-child(3) {
+        flex: 8;
+      }
+
+      /* section:nth-child(2) ul li:nth-child(1) {
+      } */
+
+      section:nth-child(2) ul li:nth-child(2) {
+        flex: 1;
+      }
+
+      section:nth-child(2) ul li:nth-child(3) {
+        flex: 4;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>伸缩比例:flex</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>伸缩比例:flex</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+  </body>
+</html>

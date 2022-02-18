@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        background-color: #eee;
+        font-family: 'Microsoft Yahei';
+        font-size: 22px;
+      }
+
+      h3 {
+        font-weight: normal;
+      }
+      section {
+        width: 1000px;
+
+        margin: 40px auto;
+      }
+
+      ul {
+        background-color: #fff;
+        border: 1px solid #ccc;
+      }
+
+      ul li {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        margin: 10px;
+      }
+      section:nth-child(1) ul {
+        overflow: hidden; /* 清除浮动 */
+      }
+      section:nth-child(1) ul li {
+        float: left;
+      }
+      /* 设置伸缩盒子*/
+      section:nth-child(2) ul {
+        display: flex;
+      }
+
+      section:nth-child(3) ul {
+        /* 设置伸缩布局*/
+        display: flex;
+        /* 设置主轴方向*/
+        flex-direction: row;
+      }
+
+      section:nth-child(4) ul {
+        /* 设置伸缩布局*/
+        display: flex;
+        /* 设置主轴方向 :水平翻转*/
+        flex-direction: row-reverse;
+      }
+
+      section:nth-child(5) ul {
+        /* 设置伸缩布局*/
+        display: flex;
+        /* 设置主轴方向 :垂直*/
+        flex-direction: column;
+      }
+
+      section:nth-child(6) ul {
+        /* 设置伸缩布局*/
+        display: flex;
+        /* 设置主轴方向 :垂直*/
+        flex-direction: column-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>传统布局</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>伸缩布局 display:flex</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴方向 flex-direction:row</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴方向 flex-direction:row-reverse</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴方向 flex-direction:column</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴方向 flex-direction:column-reverse</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        background-color: #eee;
+        font-family: 'Microsoft Yahei';
+      }
+      section {
+        width: 1000px;
+        margin: 50px auto;
+      }
+      section h3 {
+        font-size: 22px;
+        font-weight: normal;
+      }
+
+      ul {
+        border: 1px solid #999;
+        background-color: #fff;
+        display: flex;
+      }
+
+      ul li {
+        width: 200px;
+        height: 200px;
+        background: pink;
+        margin: 10px;
+      }
+
+      section:nth-child(1) ul {
+        /* 主轴对齐方式：从主轴开始的方向对齐*/
+        justify-content: flex-start;
+      }
+
+      section:nth-child(2) ul {
+        /* 主轴对齐方式：从主轴结束的方向对齐*/
+        justify-content: flex-end;
+      }
+
+      section:nth-child(3) ul {
+        /* 主轴对齐方式：居中对齐*/
+        justify-content: center;
+      }
+
+      section:nth-child(4) ul {
+        /* 主轴对齐方式：在父盒子中平分*/
+        justify-content: space-around;
+      }
+
+      section:nth-child(5) ul {
+        /* 主轴对齐方式：两端对齐 平分*/
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h3>主轴的对齐方式：justify-content:flex-start</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴的对齐方式：justify-content:flex-end</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴的对齐方式：justify-content:center</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴的对齐方式：justify-content:space-round</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>主轴的对齐方式：justify-content:space-bettwen</h3>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+    </section>
+  </body>
+</html>

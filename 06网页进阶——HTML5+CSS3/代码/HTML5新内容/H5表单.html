@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>表单类型</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+      }
+
+      form {
+        max-width: 500px;
+        width: 100%;
+        margin: 32px auto 0;
+        font-size: 16px;
+      }
+
+      label {
+        display: block;
+        margin: 10px 0;
+      }
+
+      input {
+        width: 100%;
+        height: 25px;
+        margin-top: 2px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <!-- <fieldset>`标签将表单里的内容进行打包，代表一组；而<legend> 标签的则是 fieldset 里的元素定义标题。 -->
+      <fieldset>
+        <legend>表单类型</legend>
+        <label for="">
+          email: <input type="email" name="email" required />
+        </label>
+        <label for=""> color: <input type="color" name="color" /> </label>
+        <label for=""> url: <input type="url" name="url" /> </label>
+        <label for="">
+          number: <input type="number" step="3" name="number" />
+        </label>
+        <label for="">
+          range: <input type="range" name="range" value="100" />
+        </label>
+        <label for=""> search: <input type="search" name="search" /> </label>
+        <label for=""> tel: <input type="tel" name="tel" /> </label>
+        <label for=""> time: <input type="time" name="time" /> </label>
+        <label for=""> date: <input type="date" name="date" /> </label>
+        <label for=""> datetime: <input type="datetime" /> </label>
+        <label for=""> week: <input type="week" name="month" /> </label>
+        <label for=""> month: <input type="month" name="month" /> </label>
+        <label for="">
+          datetime-local: <input type="datetime-local" name="datetime-local" />
+        </label>
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

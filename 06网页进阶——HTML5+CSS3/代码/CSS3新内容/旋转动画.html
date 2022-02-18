@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 50px auto;
+            color: #fff;
+            font-size: 50px;
+            transition: all 2s; /* 过渡：让盒子在进行 transform 转换的时候，有个过渡期 */
+        }
+
+        /* rotate（角度）旋转 */
+        .box:hover {
+            transform: rotate(-405deg); /* 鼠标悬停时，让盒子进行旋转 */
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">1</div>
+
+</div>
+</body>
+</html>
