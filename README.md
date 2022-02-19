@@ -50,7 +50,7 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * 动画
   * 组件库的使用
   * 小技巧
-* 06网页进阶——HTML5+CSS3
+* [06网页进阶——HTML5+CSS3](https://blog.csdn.net/su_zui/article/details/123013420?spm=1001.2014.3001.5502)
   * HTML5介绍
   * HTML5新增内容
   * CSS3介绍
