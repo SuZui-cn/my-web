@@ -55,8 +55,9 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * HTML5新增内容
   * CSS3介绍
   * CSS3新增内容
-
-
+* [07网页的行为——JavaScript基础（1）](https://blog.csdn.net/su_zui/article/details/123123331?spm=1001.2014.3001.5502)
+  * 什么是JavaScript
+  * 基本作用
 
 
 
