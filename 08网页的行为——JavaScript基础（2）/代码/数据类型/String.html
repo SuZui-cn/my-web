@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = '测试';
+      var b = '测试用例';
+      console.log(a); //测试
+      console.log(b); //测试用例
+      //获取长度
+      console.log(a.length); //2
+      console.log(b.length); //4
+      console.log('======帅者的分隔符=======');
+      var long = 'java';
+      long += 'script';
+      console.log(long); //javascript
+      console.log('======帅者的分隔符=======');
+      var c = true;
+      var d = 13;
+      var cString = c.toString();
+      var dString = d.toString(2);
+      console.log(c + '转换之前的类型为：' + typeof c); //true转换之前的类型为：boolean
+      console.log(c + '转换之后的类型为：' + typeof cString); //true转换之后的类型为：string
+      console.log(d + '转换之前的类型为：' + typeof d); //13转换之前的类型为：number
+      console.log(d + '转换之后的类型为：' + typeof dString); //13转换之后的类型为：string
+      console.log(dString); //1101
+    </script>
+  </body>
+</html>

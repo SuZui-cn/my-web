@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = 123;
+      console.log(a);
+      console.log(typeof a);
+      //八进制
+      var b = 070;
+      console.log(b); //56
+      //十六进制
+      var c = 0x10;
+      console.log(c); //16
+      console.log(b + c); //72
+      console.log('======帅者的分割线====');
+      //浮点型
+      var d = 1.22;
+      var e = 0.2;
+      var f = 1.0;
+      console.log(f);
+      var g = 3.125e7;
+      console.log(g);
+      console.log('======帅者的分割线====');
+      //内存限制
+      var result = Number.MAX_VALUE + Number.MAX_VALUE;
+      console.log(result); //Infinity
+      console.log(isFinite(result)); //false
+      console.log('======帅者的分割线====');
+      //NaN
+      console.log(NaN == NaN); //false
+      console.log(isNaN(NaN)); //true
+      console.log(isNaN(10)); //false 本身就是数值
+      console.log(isNaN('12')); //false 可以被转换为数字
+      console.log(isNaN('adas')); //true
+      console.log(isNaN(true)); //false true可以被转换为1
+
+      
+    </script>
+  </body>
+</html>
