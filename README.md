@@ -61,6 +61,10 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 * [08网页的行为——JavaScript基础（2）](https://blog.csdn.net/su_zui/article/details/123287716)
   * 基本数据类型
   * 复杂数据类型
+* [09网页的行为——JavaScript基础（3）](https://blog.csdn.net/su_zui/article/details/123390447?spm=1001.2014.3001.5501)
+  * 流程控制语句
+  * 函数
+  * 总结 ECMAScript
 
 
 
