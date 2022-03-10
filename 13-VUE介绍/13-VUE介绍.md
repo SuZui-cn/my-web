@@ -25,6 +25,7 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 
 * 什么是VUE
 * VUE的特点
+* 我们的第一个VUE程序
 * 什么是MVVM
 
 <!--more-->
@@ -60,6 +61,52 @@ VUE由国人**尤雨溪**所开发。
 
 * **状态管理**——状态管理实际就是一个单向的数据流，State 驱动 View 的渲染，而用户对 View 进行操作产生 Action，使 State 产生变化，从而使 View 重新渲染，形成一个单独的组件。
 
+## 我们的第一个VUE程序
+
+我们先打开VUE的官网
+
+地址：[https://cn.vuejs.org/](https://cn.vuejs.org/)
+
+之后点击“起步”
+
+![image-20220310234235032](https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220310234235032.png)
+
+在这个位置，我们将CDN复制下来。
+
+![image-20220310234334313](https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220310234334313.png)
+
+之后我们创建一个`.html`结尾的文件并写入下面的内容。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <body>
+    <!-- 这里的{{}}是插值表达式，用于将data里的数据渲染到页面上 -->
+    <!-- VUE2需要一个根节点，以这个根节点为基础来编写代码 -->
+    <div id="app">{{msg}}</div>
+
+    <script>
+      // 这里实例化了一个Vue对象，注意V是大写的。
+      new Vue({
+        // 挂载刚刚到根节点。
+        el: '#app',
+        // data对象用于存放数据。
+        data: {
+          msg: '帅者的肯定',
+        },
+      });
+    </script>
+  </body>
+</html>
+```
+
 ## 什么是MVVM
 
 - `Model`是代表**数据模型**，也可以在`Model`中定义数据修改和操作的业务逻辑。
@@ -73,3 +120,12 @@ VUE由国人**尤雨溪**所开发。
 代码演示如下：
 
 ![image-20220310233242794](https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220310233242794.png)
+
+
+
+
+
+
+
+
+

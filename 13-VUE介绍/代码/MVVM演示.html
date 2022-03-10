@@ -8,11 +8,16 @@
   </head>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <body>
+    <!-- 这里的{{}}是插值表达式，用于将data里的数据渲染到页面上 -->
+    <!-- VUE2需要一个根节点，以这个根节点为基础来编写代码 -->
     <div id="app">{{msg}}</div>
 
     <script>
+      // 这里实例化了一个Vue对象，注意V是大写的。
       new Vue({
+        // 挂载刚刚到根节点。
         el: '#app',
+        // data对象用于存放数据。
         data: {
           msg: '帅者的肯定',
         },
