@@ -21,23 +21,23 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 ## ☘︎涵盖知识点
 
 * [开篇](https://blog.csdn.net/su_zui/article/details/122761856)
-* [01前置知识以及环境搭建](https://blog.csdn.net/su_zui/article/details/122780768)
+* [01-前置知识以及环境搭建](https://blog.csdn.net/su_zui/article/details/122780768)
   * 前置知识
   * Chrome浏览器
 
   * VSCode
-* [02网页的骨架——HTML理论讲解](https://blog.csdn.net/su_zui/article/details/122814320)
+* [02-HTML理论讲解](https://blog.csdn.net/su_zui/article/details/122814320)
   - 我们的第一个网页
   - W3C
   - HTML概念
   - HTML结构详解
   - HTML规范
-* [03网页的骨架——HTML实战练习](https://blog.csdn.net/su_zui/article/details/122851681?spm=1001.2014.3001.5502)
+* [03-HTML实战练习](https://blog.csdn.net/su_zui/article/details/122851681?spm=1001.2014.3001.5502)
   * VSCode基本介绍
   * HTML常用标签
   * HTML标签练习
   * 善于实用搜索引擎
-* [04网页的装饰——CSS基础](https://blog.csdn.net/su_zui/article/details/122915398?spm=1001.2014.3001.5502)
+* [04-CSS基础](https://blog.csdn.net/su_zui/article/details/122915398?spm=1001.2014.3001.5502)
   * CSS概述
   * CSS语法
   * HTML引入CSS
@@ -45,23 +45,23 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * 属性
   * 盒子
   * 案例
-* [05网页的装饰——CSS进阶](https://blog.csdn.net/su_zui/article/details/122973887?spm=1001.2014.3001.5501)
+* [05-CSS进阶](https://blog.csdn.net/su_zui/article/details/122973887?spm=1001.2014.3001.5501)
   * CSS布局相关
   * 动画
   * 组件库的使用
   * 小技巧
-* [06网页进阶——HTML5+CSS3](https://blog.csdn.net/su_zui/article/details/123013420?spm=1001.2014.3001.5502)
+* [06-HTML5+CSS3](https://blog.csdn.net/su_zui/article/details/123013420?spm=1001.2014.3001.5502)
   * HTML5介绍
   * HTML5新增内容
   * CSS3介绍
   * CSS3新增内容
-* [07网页的行为——JavaScript基础（1）](https://blog.csdn.net/su_zui/article/details/123123331?spm=1001.2014.3001.5502)
+* [07-JavaScript基础基础介绍](https://blog.csdn.net/su_zui/article/details/123123331?spm=1001.2014.3001.5502)
   * 什么是JavaScript
   * 基本作用
-* [08网页的行为——JavaScript基础（2）](https://blog.csdn.net/su_zui/article/details/123287716)
+* [08-JavaScript数据类型](https://blog.csdn.net/su_zui/article/details/123287716)
   * 基本数据类型
   * 复杂数据类型
-* [09网页的行为——JavaScript基础（3）](https://blog.csdn.net/su_zui/article/details/123390447?spm=1001.2014.3001.5501)
+* [09-流程控制语句](https://blog.csdn.net/su_zui/article/details/123390447?spm=1001.2014.3001.5501)
   * 流程控制语句
   * 函数
   * 总结 ECMAScript

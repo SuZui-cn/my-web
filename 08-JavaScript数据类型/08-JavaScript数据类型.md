@@ -1,4 +1,4 @@
-# 从零开始学WEB前端💦——网页的行为——JavaScript基础（2）
+# 从零开始学WEB前端💦——JavaScript数据类型
 
 ## 📓项目介绍
 
