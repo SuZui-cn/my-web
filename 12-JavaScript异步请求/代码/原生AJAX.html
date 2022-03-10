@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      function loadXMLDoc() {
+        var xmlhttp;
+        // 获取浏览器版本
+        // AJAX 实际是通过XMLHttpRequest对象来实现的，但是IE7以下的浏览器不支持XMLHttpRequest对象，只能使用ActiveXObject对象。
+        if (window.XMLHttpRequest) {
+          //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+          xmlhttp = new XMLHttpRequest();
+        } else {
+          // IE6, IE5 浏览器执行代码
+          xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        xmlhttp.onreadystatechange = function () {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            document.getElementById('myDiv').innerHTML = xmlhttp.responseText;
+          }
+        };
+        // get请求的参数直接拼接在url后面
+        xmlhttp.open('GET', './测试.txt', true);
+        // post请求的参数就放在send()方法中
+        xmlhttp.send();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="myDiv"><h2>使用 AJAX 修改该文本内容</h2></div>
+    <button type="button" onclick="loadXMLDoc()">修改内容</button>
+  </body>
+</html>
