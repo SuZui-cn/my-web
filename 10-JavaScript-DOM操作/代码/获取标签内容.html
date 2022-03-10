@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>这是一段内容</p>
+    <p>这是一段内容</p>
+    <button>这是一个按钮</button>
+
+    <script>
+      var p = document.getElementsByTagName('p')[0];
+      var p2 = document.getElementsByTagName('p')[1];
+      var content = p.innerText;
+      console.log(content); //这是一段内容
+      // 修改p标签的内容
+      // innerText不会渲染标签
+      p.innerText = '<i>倾斜的字体</i>';
+      // innerHTML会渲染标签
+      p2.innerHTML = '<i>倾斜的字体</i>';
+
+      var btn = document.getElementsByTagName('button')[0];
+      var btnContent = btn.innerText;
+      console.log(btnContent); //这是一个按钮
+    </script>
+  </body>
+</html>

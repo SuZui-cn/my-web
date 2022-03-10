@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 这里准备了一张图片 -->
+    <img
+      id="logo"
+      src="https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220310182159708.png"
+      alt="404"
+    />
+    <script>
+      // 选中元素
+      var image = document.getElementById('logo');
+      console.log(image);
+      var src = image.src;
+      console.log('图片src:' + src);
+      var id = image.id;
+      console.log('图片id:' + id);
+      var alt = image.alt;
+      console.log('图片src:' + alt);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+    <form>
+        用户名：<input type="text" name="username" />
+        <br />
+        密码：<input type="password" name="password" />
+        <br>
+        性别：<input type="radio" name="sex" value="男">男</input>
+              <input type="radio" name="sex" value="女">女</input>
+        <br>
+        <input type="button" onclick="show()" value="提交">
+      </form>
+    <script>
+      function show(){
+        var username = document.getElementsByName("username")[0]
+      var password = document.getElementsByName("password")[0]
+      var man = document.getElementsByName("sex")[0]
+      var woman = document.getElementsByName("sex")[1]
+      console.log(username.value)
+      console.log(password.value)
+      // 对于单选框我们需要使用checked属性来判断是否选中，
+      // 选中时checked返回为真，反之为假。
+      if (woman.checked){
+        console.log("女")
+      }else if(man.checked){
+        console.log("男")
+      }
+      }
+    </script>
+  </body>
+</html>
