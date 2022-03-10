@@ -37,6 +37,7 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 * 插入节点
 * 删除节点
 * 事件
+* 轮播图案例
 
 <!--more-->
 
@@ -536,7 +537,84 @@ HTML元素由一个标签和一组称为属性（attribute）的名/值对组成
 </html>
 ```
 
+## 轮播图案例
 
+我这里写的轮播图的原理就是把图片水平排列，设置一个展示区域，区域以外设为不可见，然后水平平移图片。
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
+      .total {
+        height: 250px;
+        width: 655px;
+        overflow: hidden;
+      }
 
+      #banner {
+        height: 250px;
+        width: 3275px;
+      }
+
+      li {
+        float: left;
+        width: 655px;
+        height: 250px;
+        list-style: none;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="total">
+      <ul id="banner">
+        <li><img src="lunbo1.jpg" /></li>
+        <li><img src="lunbo2.jpg" /></li>
+        <li><img src="lunbo3.png" /></li>
+        <li><img src="lunbo4.png" /></li>
+        <li><img src="lunbo1.jpg" /></li>
+      </ul>
+    </div>
+
+    <script>
+      var curindex = 0;
+      var maxlen =
+        document.getElementById('banner').getElementsByTagName('li').length - 1;
+      var timer = null;
+      timer = setInterval(change_auto, 1000);
+      function change_auto() {
+        if (curindex < maxlen) {
+          curindex++;
+          get_next();
+        } else {
+          curindex = 0;
+          get_reset();
+        }
+      }
+      var width = 655;
+      function get_next() {
+        var totalbanner = document.getElementById('banner');
+        totalbanner.style.marginLeft = '-' + width * curindex + 'px';
+        totalbanner.style.transition = 0.3 + 's';
+      }
+      function get_reset() {
+        var totalbanner = document.getElementById('banner');
+        totalbanner.style.marginLeft = '0px';
+        totalbanner.style.transition = '0s';
+      }
+    </script>
+  </body>
+</html>
+```

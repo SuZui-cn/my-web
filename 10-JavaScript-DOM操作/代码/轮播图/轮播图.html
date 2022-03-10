@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .total {
+        height: 250px;
+        width: 655px;
+        overflow: hidden;
+      }
+
+      #banner {
+        height: 250px;
+        width: 3275px;
+      }
+
+      li {
+        float: left;
+        width: 655px;
+        height: 250px;
+        list-style: none;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="total">
+      <ul id="banner">
+        <li><img src="lunbo1.jpg" /></li>
+        <li><img src="lunbo2.jpg" /></li>
+        <li><img src="lunbo3.png" /></li>
+        <li><img src="lunbo4.png" /></li>
+        <li><img src="lunbo1.jpg" /></li>
+      </ul>
+    </div>
+
+    <script>
+      var curindex = 0;
+      var maxlen =
+        document.getElementById('banner').getElementsByTagName('li').length - 1;
+      var timer = null;
+      timer = setInterval(change_auto, 1000);
+      function change_auto() {
+        if (curindex < maxlen) {
+          curindex++;
+          get_next();
+        } else {
+          curindex = 0;
+          get_reset();
+        }
+      }
+      var width = 655;
+      function get_next() {
+        var totalbanner = document.getElementById('banner');
+        totalbanner.style.marginLeft = '-' + width * curindex + 'px';
+        totalbanner.style.transition = 0.3 + 's';
+      }
+      function get_reset() {
+        var totalbanner = document.getElementById('banner');
+        totalbanner.style.marginLeft = '0px';
+        totalbanner.style.transition = '0s';
+      }
+    </script>
+  </body>
+</html>
