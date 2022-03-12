@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #title {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="title">发送成功</span>
+    <span id="info" v-bind=""></span>
+    <form>
+      用户名：<input type="text" name="username" />
+      <br />
+      密码： <input type="password" name="password" />
+      <br />
+      <input type="button" value="提交" onclick="send()" />
+    </form>
+
+    <script>
+      // 获取标签元素
+      var username = document.getElementsByName('username')[0];
+      var password = document.getElementsByName('password')[0];
+      var title = document.getElementById('title');
+      var info = document.getElementById('info');
+      // 定义个对象来存储数据
+      var formData = {
+        username: '',
+        password: '',
+      };
+
+      // 定义提交函数
+      function send() {
+        // 为对象赋值
+        formData.username = username.value;
+        formData.password = password.value;
+        console.log('数据发送成功');
+        // 显示发送成功
+        title.style.display = '';
+        title.style.color = 'red';
+        // 输出表单数据
+        info.innerHTML = JSON.stringify(formData);
+      }
+    </script>
+  </body>
+</html>

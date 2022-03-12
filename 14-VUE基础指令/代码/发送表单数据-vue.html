@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #title {
+        display: none;
+      }
+    </style>
+  </head>
+  <div id="app">
+    <!-- v-show绑定了data里的flag,为真时显示标签，false时隐藏标签 -->
+    <!-- v-bind是属性绑定，这里绑定了style样式，v-bind标签可以省略，这里可以直接写成:style -->
+    <span v-if="flag" v-bind:style="color">发送成功</span>
+    <!-- 这里用插值表达式渲染文本 -->
+    <span v-if="flag">{{formData}}</span>
+    <form>
+      <!-- v-model是数据的双向绑定，用于将data中的元素值绑定到标签上 -->
+      用户名：<input type="text" v-model="formData.username" />
+      <br />
+      密码： <input type="password" v-model="formData.password" />
+      <br />
+      <!-- v-on是事件绑定，冒号后面的click表示绑定的点击事件，v-on可以省略，直接写成:click -->
+      <input type="button" value="提交" v-on:click="send()" />
+    </form>
+  </div>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: '#app',
+        // data中存放数据，都是以对象的形式存储
+        data: {
+          formData: {
+            username: '',
+            password: '',
+          },
+          flag: false,
+          color: '',
+        },
+        // 所有的方法都放在methods（注意：复数）里面
+        methods: {
+          // 定义方法
+          send() {
+            console.log('发送成功');
+            // 是否显示提示文本
+            this.flag = true;
+            // 提示文本颜色
+            this.color = 'color:red';
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
