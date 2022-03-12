@@ -21,7 +21,13 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
 
 ## ⌨本文知识点
 
-* 
+* 案例：表单发送数据
+* 案例：批量渲染数据
+* v-bind指令
+* v-show和v-if
+* v-model指令
+* v-on指令
+* v-for指令
 
 <!--more-->
 
