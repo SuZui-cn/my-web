@@ -520,7 +520,7 @@ v-model用于数据的双向绑定，这个指令用来在 input、select、text
 
 ## v-on指令
 
-v-on指令用于事件的绑定，同时v-on可以简写为 **:** , 所以在绑定点击事件的时候我们可以简写为 **:click** 。
+v-on指令用于事件的绑定，同时v-on可以简写为 **@**, 所以在绑定点击事件的时候我们可以简写为 **@click** 。
 
 这里我们引用一篇文章来详细解释，原文地址：[https://www.jianshu.com/p/2b79835c2187](https://www.jianshu.com/p/2b79835c2187)
 
