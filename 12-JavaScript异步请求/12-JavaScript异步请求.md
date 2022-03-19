@@ -26,7 +26,6 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * 创建对象
   * 发起请求
   * 服务器响应
-  * 
 * 案例
 
 <!--more-->
@@ -49,7 +48,7 @@ AJAX(异步请求) 作为和后端交互的主要方式，这个技术一定要�
 
 > AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
 
-工作原理
+## 工作原理
 
 ![image-20220310224058964](https://gitee.com/north_gate/drawing-bed/raw/master/images/image-20220310224058964.png)
 
@@ -163,7 +162,7 @@ readyState 属性存有 XMLHttpRequest 的状态信息。
 
 ### 发送get请求
 
-```
+```javascript
 <input name="submit" type="button" id="submit" value="向服务器发出请求" />
 <script>
     window.onload = function () {  //页面初始化
@@ -181,7 +180,7 @@ readyState 属性存有 XMLHttpRequest 的状态信息。
 
 ### 发送post请求
 
-```
+```javascript
 window.onload = function () {  //页面初始化
     var b = document.getElementsByTagName("input")[0];
     b.onclick = function () {

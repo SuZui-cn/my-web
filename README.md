@@ -73,6 +73,15 @@ Gitee地址：[https://gitee.com/north_gate/my-web](https://gitee.com/north_gate
   * 删除节点
   * 事件
   * 轮播图案例
+* [11-JavaScript-BOM操作](https://blog.csdn.net/su_zui/article/details/123506994?spm=1001.2014.3001.5501)
+  * window对象
+  * location对象
+  * 小结
+
+* [12-JavaScript异步请求](https://blog.csdn.net/su_zui/article/details/123582125?spm=1001.2014.3001.5501)
+  * AJAX介绍
+  * 原生AJAX
+  * 案例
 
 
 
