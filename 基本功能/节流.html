@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function throttle(fn, delay) {
+        let last = 0; // 上次触发时间
+        return (...args) => {
+          const now = Date.now();
+          if (now - last > delay) {
+            last = now;
+            fn.apply(this, args);
+          }
+        };
+      }
+
+      // 测试
+      function task() {
+        console.log('run task');
+      }
+      const throttleTask = throttle(task, 1000);
+      window.addEventListener('click', throttleTask);
+    </script>
+  </body>
+</html>

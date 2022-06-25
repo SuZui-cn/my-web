@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // set去重
+      const newArr = [...new Set(arr)];
+      // Array去重
+      const newArr2 = Array.from(new Set(arr));
+      // indexOf去重
+      function resetArr(arr) {
+        let res = [];
+        arr.forEach((item) => {
+          if (res.indexOf(item) === -1) {
+            res.push(item);
+          }
+        });
+        return res;
+      }
+
+      // 测试
+      const arr = [1, 1, 2, 3, 3];
+      console.log(resetArr(arr)); // [1, 2, 3]
+    </script>
+  </body>
+</html>
