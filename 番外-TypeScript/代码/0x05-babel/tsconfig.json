@@ -1,0 +1,15 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+
+    // outDir 用来指定编译后文件所在的目录
+    "outDir": "./dist",
+
+    // 所有严格检查的总开关
+    "strict": true,
+  }
+}
